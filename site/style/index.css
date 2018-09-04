@@ -1,0 +1,129 @@
+
+body {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid #ccc;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 160px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    top: 0;
+}
+
+input:focus {
+    color: black;
+    border: 1px solid #ededed;
+}
+
+#signin{
+	float: right;
+	top: 0px;
+	position: relative;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+}
+
+ul {
+    position: static;
+    top: 0;
+    width: 100%;
+    background-color: #dddddd;
+    list-style-type: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 2px solid green;
+}
+
+li{
+	display: inline;
+	float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+#body{
+	width: 100%;
+	height: 580px;
+	position: relative;
+}
+
+img{
+	margin-top: 2%;
+	margin-left: 2%;
+	opacity: 0.5;
+	position: static;
+}
+
+#aside{
+	width: 50%;
+	float: right;
+	top: 0;
+	height: 550px;
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 6%;
+}
+
+#info{
+	float: right;
+}
+
+#acc{
+	float: right;
+}
+
+form{
+	color: white;
+}
+
+#footer{
+	width: 100%;
+	padding: 2px;
+	border-top: 2px solid green;
+   background-color: #111111;
+	height: 20px;
+	position: static;
+	font-size: 8px;
+	color: white;
+	text-align: center;
+}
